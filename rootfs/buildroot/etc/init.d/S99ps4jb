@@ -1,0 +1,3 @@
+#!/bin/sh
+cd /root/PS4JB
+python serve.py --port 80 --redirect-playstation-domain "http://ps4jb-luckfox.local" &
