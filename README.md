@@ -20,6 +20,8 @@ By emulating USB mass storage for exfathax exploit, Don't bother about plugging 
 
 
 ## How to install an internal modchip?
+![Installed on CUH-1005A](./resources/PS4-CUH-1005A-Installed.jpg)
+
 ### Luckfox Pico Pinmap
 ![Luckfox Pico Pinmap](./resources/Luckfox-Pico-Mini-Pinmap.jpg)
 * Ethernet PHY pins are located in bottom (TXP, TXN, TXP, RXN)
