@@ -18,11 +18,27 @@ By emulating USB mass storage for exfathax exploit, Don't bother about plugging 
 
 **pOOBs4-Luckfox ONLY SUPPORTS SPI NAND FLASHING**
 
-## How to install as an external modchip?
-TODO
 
 ## How to install an internal modchip?
-TODO
+### Luckfox Pico Pinmap
+![Luckfox Pico Pinmap](./resources/Luckfox-Pico-Mini-Pinmap.jpg)
+* Ethernet PHY pin is located in bottom (TXP, TXN, TXP, RXN)
+
+### PlayStation 4 Ethernet Pinmap
+**!!DO NOT CROSS TX AND RX BETWEEN THE CONSOLE AND LUCKFOX PICO!!**
+* Fat (CUH-10xx, CUH-11xx, CUH-12xx)
+  ![PlayStation 4 Fat Ethernet Pinmap](./resources/Eth-PS4-Fat.jpg)
+  `RXD+` is alias of `RXP` (Positive), `RXD-` is alias of `RXN` (Negative)</br>
+  `TXD+` is alias of `TXP` (Positive), `TXD-` is alias of `TXN` (Negative)</br>
+  
+* Slim (CUH-20xx, CUH-21xx, CUH-22xx)
+  ![PlayStation 4 Slim Ethernet Pinmap](./resources/Eth-PS4-Slim.jpg)
+
+* Pro (CUH-70xx, CUH-71xx, CUH-72xx)
+  ![PlayStation 4 Pro Ethernet Pinmap](./resources/Eth-PS4-Pro.jpg)
+
+### PlayStation 4 USB Pinmap
+![PlayStation 4 USB 2.0 Pinmap](./resources/USB-PS4.jpg)
 
 ## How to use it on my PS4?
 ### Configure Network
