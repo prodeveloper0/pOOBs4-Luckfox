@@ -6,7 +6,7 @@ if [ -z "$ROOTFS_PATH" ]; then
 fi
 
 rsync -av --exclude='.git' --exclude='__pycache__' --exclude='*.pyc' ./rootfs/buildroot/ "$ROOTFS_PATH/"
-rsync -av --exclude='.git' --exclude='__pycache__' --exclude='*.pyc' --exclude='rootfs' ./ "$ROOTFS_PATH/root/PS4JB"
+rsync -av --exclude='.git' --exclude='__pycache__' --exclude='*.pyc' --exclude='rootfs' --exclude='resources' ./ "$ROOTFS_PATH/root/PS4JB"
 
 # Configure USB device
 sed -i '/^UMS_EN=/s/off$/on/' "$ROOTFS_PATH/etc/init.d/S50usbdevice"
