@@ -22,7 +22,7 @@ By emulating USB mass storage for exfathax exploit, Don't bother about plugging 
 ## How to install an internal modchip?
 ### Luckfox Pico Pinmap
 ![Luckfox Pico Pinmap](./resources/Luckfox-Pico-Mini-Pinmap.jpg)
-* Ethernet PHY pin is located in bottom (TXP, TXN, TXP, RXN)
+* Ethernet PHY pins are located in bottom (TXP, TXN, TXP, RXN)
 
 ### PlayStation 4 Ethernet Pinmap
 **!!DO NOT CROSS TX AND RX BETWEEN THE CONSOLE AND LUCKFOX PICO!!**
